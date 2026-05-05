@@ -24,49 +24,53 @@
     <section class="showcase">
       <div class="heart-stage" id="heartStage">
         <canvas id="heartCanvas" width="640" height="640"></canvas>
+        <div class="photo-card" id="photoCard">
+          <div class="photo-spark" aria-hidden="true"></div>
+          <div class="photo-mini-hearts" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <svg class="photo-heart" viewBox="0 0 100 92" role="img" aria-labelledby="photoTitle photoDesc">
+            <title id="photoTitle">Surprise Photo</title>
+            <desc id="photoDesc">A heart-shaped photo reveal.</desc>
+            <defs>
+              <clipPath id="heartPhotoClip">
+                <path d="M50 88C47 85 5 58 5 26C5 11 16 2 30 2C40 2 46 8 50 14C54 8 60 2 70 2C84 2 95 11 95 26C95 58 53 85 50 88Z" />
+              </clipPath>
+              <linearGradient id="heartStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#ff9070" />
+                <stop offset="50%" stop-color="#ffd86c" />
+                <stop offset="100%" stop-color="#59e3ff" />
+              </linearGradient>
+              <linearGradient id="heartBackdrop" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#182033" />
+                <stop offset="100%" stop-color="#090d17" />
+              </linearGradient>
+            </defs>
+
+            <path
+              class="photo-backdrop"
+              d="M50 88C47 85 5 58 5 26C5 11 16 2 30 2C40 2 46 8 50 14C54 8 60 2 70 2C84 2 95 11 95 26C95 58 53 85 50 88Z"
+            />
+            <image
+              id="surprisePhoto"
+              href="assets/photo-placeholder.svg"
+              x="5"
+              y="1"
+              width="90"
+              height="88"
+              preserveAspectRatio="xMidYMin slice"
+              clip-path="url(#heartPhotoClip)"
+            />
+            <path
+              class="heart-outline"
+              d="M50 88C47 85 5 58 5 26C5 11 16 2 30 2C40 2 46 8 50 14C54 8 60 2 70 2C84 2 95 11 95 26C95 58 53 85 50 88Z"
+            />
+          </svg>
+          <p class="photo-caption">ფოტო ახლა თვითონ გულის შუაში ჩნდება.</p>
+        </div>
         <button class="replay-button" id="replayButton" type="button">ხელახლა აცოცხლე</button>
-      </div>
-
-      <div class="photo-card" id="photoCard">
-        <div class="photo-spark" aria-hidden="true"></div>
-        <svg class="photo-heart" viewBox="0 0 100 92" role="img" aria-labelledby="photoTitle photoDesc">
-          <title id="photoTitle">Surprise Photo</title>
-          <desc id="photoDesc">A heart-shaped photo reveal.</desc>
-          <defs>
-            <clipPath id="heartPhotoClip">
-              <path d="M50 88C47 85 5 58 5 26C5 11 16 2 30 2C40 2 46 8 50 14C54 8 60 2 70 2C84 2 95 11 95 26C95 58 53 85 50 88Z" />
-            </clipPath>
-            <linearGradient id="heartStroke" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stop-color="#ff9070" />
-              <stop offset="50%" stop-color="#ffd86c" />
-              <stop offset="100%" stop-color="#59e3ff" />
-            </linearGradient>
-            <linearGradient id="heartBackdrop" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stop-color="#182033" />
-              <stop offset="100%" stop-color="#090d17" />
-            </linearGradient>
-          </defs>
-
-          <path
-            class="photo-backdrop"
-            d="M50 88C47 85 5 58 5 26C5 11 16 2 30 2C40 2 46 8 50 14C54 8 60 2 70 2C84 2 95 11 95 26C95 58 53 85 50 88Z"
-          />
-          <image
-            id="surprisePhoto"
-            href="assets/photo-placeholder.svg"
-            x="5"
-            y="2"
-            width="90"
-            height="86"
-            preserveAspectRatio="xMidYMid slice"
-            clip-path="url(#heartPhotoClip)"
-          />
-          <path
-            class="heart-outline"
-            d="M50 88C47 85 5 58 5 26C5 11 16 2 30 2C40 2 46 8 50 14C54 8 60 2 70 2C84 2 95 11 95 26C95 58 53 85 50 88Z"
-          />
-        </svg>
-        <p class="photo-caption">ზოგი ადამიანი ჩვეულებრივ დღესაც განსაკუთრებულად აქცევს.</p>
       </div>
     </section>
 
