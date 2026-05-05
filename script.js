@@ -138,11 +138,11 @@ function drawHeart(timestamp) {
 
   ctx.restore();
 
-  if (!scene.revealStarted && progress >= 0.68) {
+  if (!scene.revealStarted && progress >= 0.54) {
     scene.revealStarted = true;
     photoCard.classList.add("is-visible");
-    window.setTimeout(() => notePanel.classList.add("is-visible"), 240);
-    window.setTimeout(() => qrPanel.classList.add("is-visible"), 520);
+    window.setTimeout(() => notePanel.classList.add("is-visible"), 280);
+    window.setTimeout(() => qrPanel.classList.add("is-visible"), 620);
   }
 
   scene.animationFrame = window.requestAnimationFrame(drawHeart);
@@ -159,7 +159,7 @@ function startScene() {
 }
 
 function accelerateScene() {
-  const desiredElapsed = 1850;
+  const desiredElapsed = 1700;
   const now = performance.now();
   scene.startTime = Math.min(scene.startTime, now - desiredElapsed);
 }
@@ -191,10 +191,12 @@ function loadPhoto() {
 
   image.onload = () => {
     surprisePhoto.setAttribute("href", SURPRISE_CONFIG.photoPath);
+    surprisePhoto.setAttribute("xlink:href", SURPRISE_CONFIG.photoPath);
   };
 
   image.onerror = () => {
     surprisePhoto.setAttribute("href", SURPRISE_CONFIG.photoFallbackPath);
+    surprisePhoto.setAttribute("xlink:href", SURPRISE_CONFIG.photoFallbackPath);
   };
 
   image.src = `${SURPRISE_CONFIG.photoPath}?v=${Date.now()}`;
