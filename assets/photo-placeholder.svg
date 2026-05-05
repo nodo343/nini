@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="Photo placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff8f70" />
+      <stop offset="50%" stop-color="#ffd86c" />
+      <stop offset="100%" stop-color="#59e3ff" />
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="900" rx="120" fill="#09111d" />
+  <circle cx="450" cy="420" r="270" fill="url(#bg)" opacity="0.18" />
+  <path
+    d="M450 694C421 666 136 510 136 290C136 182 217 110 324 110C391 110 436 144 450 176C464 144 509 110 576 110C683 110 764 182 764 290C764 510 479 666 450 694Z"
+    fill="none"
+    stroke="url(#bg)"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="24"
+  />
+  <text
+    x="450"
+    y="398"
+    text-anchor="middle"
+    fill="#ffffff"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="56"
+  >
+    Add your photo
+  </text>
+  <text
+    x="450"
+    y="470"
+    text-anchor="middle"
+    fill="#f7d4cb"
+    font-family="'Courier New', monospace"
+    font-size="34"
+  >
+    assets/photo.jpg
+  </text>
+</svg>

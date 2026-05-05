@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="QR placeholder">
+  <rect width="900" height="900" rx="86" fill="#0b1221" />
+  <rect x="84" y="84" width="732" height="732" rx="54" fill="#f8f5f0" />
+
+  <rect x="138" y="138" width="170" height="170" rx="24" fill="#0b1221" />
+  <rect x="172" y="172" width="102" height="102" rx="16" fill="#f8f5f0" />
+  <rect x="200" y="200" width="46" height="46" rx="10" fill="#0b1221" />
+
+  <rect x="592" y="138" width="170" height="170" rx="24" fill="#0b1221" />
+  <rect x="626" y="172" width="102" height="102" rx="16" fill="#f8f5f0" />
+  <rect x="654" y="200" width="46" height="46" rx="10" fill="#0b1221" />
+
+  <rect x="138" y="592" width="170" height="170" rx="24" fill="#0b1221" />
+  <rect x="172" y="626" width="102" height="102" rx="16" fill="#f8f5f0" />
+  <rect x="200" y="654" width="46" height="46" rx="10" fill="#0b1221" />
+
+  <g fill="#0b1221">
+    <rect x="380" y="164" width="42" height="42" rx="8" />
+    <rect x="446" y="164" width="42" height="42" rx="8" />
+    <rect x="512" y="164" width="42" height="42" rx="8" />
+    <rect x="380" y="230" width="42" height="42" rx="8" />
+    <rect x="512" y="230" width="42" height="42" rx="8" />
+    <rect x="380" y="296" width="42" height="42" rx="8" />
+    <rect x="446" y="296" width="42" height="42" rx="8" />
+    <rect x="446" y="362" width="42" height="42" rx="8" />
+    <rect x="512" y="362" width="42" height="42" rx="8" />
+    <rect x="578" y="362" width="42" height="42" rx="8" />
+    <rect x="380" y="428" width="42" height="42" rx="8" />
+    <rect x="512" y="428" width="42" height="42" rx="8" />
+    <rect x="644" y="428" width="42" height="42" rx="8" />
+    <rect x="380" y="494" width="42" height="42" rx="8" />
+    <rect x="446" y="494" width="42" height="42" rx="8" />
+    <rect x="578" y="494" width="42" height="42" rx="8" />
+    <rect x="644" y="494" width="42" height="42" rx="8" />
+    <rect x="380" y="560" width="42" height="42" rx="8" />
+    <rect x="512" y="560" width="42" height="42" rx="8" />
+    <rect x="578" y="560" width="42" height="42" rx="8" />
+    <rect x="644" y="560" width="42" height="42" rx="8" />
+    <rect x="380" y="626" width="42" height="42" rx="8" />
+    <rect x="446" y="626" width="42" height="42" rx="8" />
+    <rect x="578" y="626" width="42" height="42" rx="8" />
+    <rect x="512" y="692" width="42" height="42" rx="8" />
+    <rect x="578" y="692" width="42" height="42" rx="8" />
+    <rect x="644" y="692" width="42" height="42" rx="8" />
+  </g>
+
+  <text
+    x="450"
+    y="470"
+    text-anchor="middle"
+    fill="#ff8f70"
+    font-family="'Courier New', monospace"
+    font-size="52"
+  >
+    ADD LINK
+  </text>
+  <text
+    x="450"
+    y="536"
+    text-anchor="middle"
+    fill="#0b1221"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="32"
+  >
+    set customShareUrl
+  </text>
+</svg>
